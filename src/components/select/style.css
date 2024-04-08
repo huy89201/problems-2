@@ -1,0 +1,27 @@
+select {
+  padding: 1rem;
+  background-color: #0e0e2a !important;
+  cursor: pointer;
+  color: #fff;
+  border: 3px solid transparent;
+  border-radius: 0.5rem;
+  outline: none;
+  font-size: 1rem;
+  overflow-y:auto;
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 0.15s;
+}
+
+
+option{
+  overflow-y:scroll;
+}
+
+select:hover,
+select:focus {
+  background: linear-gradient(#0e0e2a, #0e0e2a) padding-box,
+    linear-gradient(90deg, #a93eff, #5e40de, #00b3ff) border-box;
+  border-radius: 10px;
+  border: 3px solid transparent;
+}

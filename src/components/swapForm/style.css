@@ -1,0 +1,30 @@
+form {
+  gap: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  min-width: 30vw;
+  padding: 2.5rem 2rem 4rem 2rem;
+  background-image: linear-gradient(180deg, #1a2644, rgba(26, 38, 68, 0));
+  background-color: #0e0e2a;
+  border-radius: 18px;
+  color: #fff;
+}
+
+.form-tile {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+label {
+  font-size: 1rem;
+}
+
+section {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+section:last-child {
+  justify-content: end;
+}
